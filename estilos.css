@@ -1,0 +1,70 @@
+/*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*- ESTILOS GENERALES -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*/
+body{
+    background-color: antiquewhite;
+    margin: 1%;
+    font-family: fantasy;
+    font-size: 20px;
+    flex-wrap: nowrap;
+}
+/*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*- CABECERA Y ENLACES -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*/
+header{
+    background: linear-gradient(to right bottom, rgb(108, 108, 38), rgb(47, 80, 50) );
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;    
+}
+.navigationBarList {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    margin-right: 25px;
+    gap: 20px;
+    font-family: fantasy;
+    font-size: 20px;
+}
+h1  {
+    font-family: fantasy;
+    font-size: 60px; 
+    color: rgb(172, 106, 7);
+}
+.enlace {
+    color: aquamarine;
+}
+/*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*- ESTILOS CON FLEX -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*/
+.group1{
+    display: flex;
+    flex-direction:column-reverse
+}
+.group2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 3%;
+    font-size: 30px;
+    gap: 20px;
+}
+.group3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(203, 248, 233);
+    border-radius: 5%;
+    border-style: dotted;
+    width: 20%;
+    margin-top: 1%;
+    margin-bottom: 10%;
+}
+/*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*- PIE DE PÁGINA -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*/
+footer {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
